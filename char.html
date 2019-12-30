@@ -1,0 +1,2329 @@
+<!doctype html>
+<html>
+  <head>
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Example Character</title>
+
+    <style>
+      .card{
+        background-color: lightgray;
+      }
+      h6{
+        font-weight:bold;
+      }
+      hr{
+          border-top:2px solid black;
+      }
+
+    .custom-control {
+        display: inline-block !important;
+        }
+
+    .custom-control-input:checked ~ .custom-control-label::before {
+        color:black;
+        border-color: black;
+        background-color: black;
+    }
+
+    .custom-radio .custom-control-input:checked~.custom-control-label::after {
+        background-image: unset;
+    }
+    </style>
+
+  </head>
+
+  <body style="background-color: white">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+        <div class="container text-center">
+          <a class="navbar-brand text-center" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto mx-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container-fluid mt-5">
+
+        <div class="row">
+            <div class="col">
+                <h6 class="d-inline-block">NAME:</h6><p class="d-inline-block">&nbsp;&nbsp;Akumu-Ryu</p>
+            </div>
+            <div class="col">
+                <h6 class="d-inline-block">NATURE:</h6><p class="d-inline-block">&nbsp;&nbsp;Thrill Seeker</p>
+            </div>
+            <div class="col">
+                <h6 class="d-inline-block">CLAN:</h6><p class="d-inline-block">&nbsp;&nbsp;White Dragon</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h6 class="d-inline-block">MASTER:</h6><p class="d-inline-block">&nbsp;&nbsp;</p>
+            </div>
+            <div class="col">
+                <h6 class="d-inline-block">DEMEANOR:</h6><p class="d-inline-block">&nbsp;&nbsp;Autist/Bravo</p>
+            </div>
+            <div class="col">
+                <h6 class="d-inline-block">RANK:</h6><p class="d-inline-block">&nbsp;&nbsp;5</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h6 class="d-inline-block">CHRONICLE:</h6><p class="d-inline-block">&nbsp;&nbsp;Japan</p>
+            </div>
+            <div class="col">
+                <h6 class="d-inline-block">CONCEPT:</h6><p class="d-inline-block">&nbsp;&nbsp;Damaged Soul</p>
+            </div>
+            <div class="col">
+                <h6 class="d-inline-block">HAVEN:</h6><p class="d-inline-block">&nbsp;&nbsp;Rockies/Tokyo</p>
+            </div>
+        </div>
+
+        <hr> <!-- ATTRIBUTES -->
+
+        <div class="row">
+            <div class="col text-center">
+                <h6 class="d-inline-block">PHYSICAL</h6>
+            </div>
+            <div class="col text-center">
+                <h6 class="d-inline-block">SOCIAL</h6>
+            </div>
+            <div class="col text-center">
+                <h6 class="d-inline-block">MENTAL</h6>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Strength:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Powerful</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Charisma:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Perception:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Dexterity:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Manipulation:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Plots</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Intelligence:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Organized</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Stamina:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Appearance:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Myserious</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Wits:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <hr class="mt-4"> <!-- ABILITIES -->
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Acting:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Stage</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Animal Ken:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Bureaucracy:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Alertness:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Noises</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Drive:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Motorcycles</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Computer:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Data</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Athletics:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Etiquette:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Finance:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Brawl:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Aiki-Jutsu</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Firearms:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Investigation:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Dodge:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Melee:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Law:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Empathy:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Music:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Lingustics:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Intimidation:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Repair:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Medicine:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Leadership:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Security:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Occult:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Streetwise:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Drugs</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Stealth:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Politics:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Subterfuge:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Survival:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Science:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <hr class="mt-4"> <!-- ADVANTAGES -->
+
+        <div class="row">
+            <div class="col text-center">
+                <h6 class="d-inline-block">DISCIPLINES</h6>
+            </div>
+            <div class="col text-center">
+                <h6 class="d-inline-block">BACKGROUNDS</h6>
+            </div>
+            <div class="col text-center">
+                <h6 class="d-inline-block">VIRTUES</h6>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Obfuscate:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Contacts:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Conscience:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Fortitude:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Resources:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Instincts:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Draconis:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Fey Status:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Courage:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Chimestry:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Fame</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Montreal</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Presence:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Fame</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;Tokyo</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Celerity:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block"></h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Auspex:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block"></h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Obteneration:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block"></h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+
+            </div>
+            
+        </div>
+
+        <hr class="mt-4"> <!-- OTHER TRAITS -->
+
+        <div class="row">
+            <div class="col text-center">
+                <h6 class="d-inline-block">Other Traits</h6>
+            </div>
+            <div class="col text-center">
+                <h6 class="d-inline-block">Other Traits</h6>
+            </div>
+            <div class="col text-center">
+                <h6 class="d-inline-block"></h6>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Artistic Expr:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Sense Deception:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row ml-2 mr-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h6>Path of Deception</h6>
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Torture:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Escapology:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row ml-2 mr-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h6>Willpower</h6>
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block">Rituals:</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row border border-dark rounded ml-2 mr-2">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h6 class="d-inline-block"></h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <small class="text-muted">&nbsp;&nbsp;</small>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="row ml-2 mr-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h6>Gnosis</h6>
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ml-2 mr-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ml-2 mr-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="radio">
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" checked><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                            <div class="btn-group">
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                                <div class="radio-inline custom-control custom-radio"><input type="radio" class="custom-control-input" ><label class="custom-control-label"></label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+  </body>
+
+</html>
